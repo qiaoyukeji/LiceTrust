@@ -1,0 +1,29 @@
+{
+  "name": "正版软件管理平台",
+  "appid": "",
+  "description": "正版软件管理平台小程序版（预留骨架，复用同一后端 API）",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "vueVersion": "3",
+  "locale": "zh-Hans",
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "uniStatistics": {
+      "enable": false
+    }
+  },
+  "h5": {
+    "title": "正版软件管理平台",
+    "router": {
+      "mode": "hash"
+    }
+  }
+}

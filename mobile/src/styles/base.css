@@ -1,0 +1,121 @@
+/* 全局基础样式：蓝白政务风 */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f3f7fc;
+  color: #1f2d3d;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+/* 顶部蓝色渐变头 */
+.gov-header {
+  background: linear-gradient(135deg, #1a66d0 0%, #3d8bf0 100%);
+  color: #fff;
+  padding: 20px 16px 24px;
+  border-radius: 0 0 16px 16px;
+}
+
+.gov-header .header-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.gov-header .header-sub {
+  font-size: 12px;
+  opacity: 0.85;
+  margin: 0;
+}
+
+/* 通用页面容器 */
+.page {
+  padding: 12px 12px 24px;
+}
+
+.page-tab {
+  padding: 12px 12px 8px;
+}
+
+/* 白色圆角卡片 */
+.gov-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 4px rgba(26, 102, 208, 0.08);
+}
+
+.gov-card .card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a66d0;
+  margin: 0 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 列表条目 */
+.gov-item {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 4px rgba(26, 102, 208, 0.08);
+}
+
+.gov-item .item-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f2d3d;
+  margin: 0 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gov-item .item-meta {
+  font-size: 12px;
+  color: #8492a6;
+  margin: 2px 0;
+}
+
+/* 空态间距 */
+.empty-wrap {
+  padding: 32px 0;
+}
+
+/* 指标格 */
+.metric-label {
+  font-size: 12px;
+  color: #8492a6;
+}
+
+.metric-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a66d0;
+}
+
+/* 按钮间距 */
+.action-bar {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.action-bar .van-button {
+  flex: 1;
+}

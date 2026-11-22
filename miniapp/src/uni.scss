@@ -1,0 +1,71 @@
+/**
+ * uni-app 全局样式变量（标准 uni.scss 预设 + 平台主题色）
+ * 官方预设：https://uniapp.dcloud.net.cn/tutorial/syntax-css.html#uni-scss
+ */
+
+/* 平台主题（蓝白政务风，与 mobile/src/styles/base.css 对齐） */
+$lh-primary: #1a66d0;
+$lh-bg: #f3f7fc;
+$lh-text: #1f2d3d;
+$lh-sub: #8492a6;
+$lh-danger: #ee0a24;
+$lh-warning: #ff976a;
+$lh-success: #07c160;
+
+/* 颜色变量 */
+$uni-color-primary: #007aff;
+$uni-color-success: $lh-success;
+$uni-color-warning: $lh-warning;
+$uni-color-error: $lh-danger;
+
+/* 文字基本颜色 */
+$uni-text-color: $lh-text; // 基本色
+$uni-text-color-inverse: #fff; // 反色
+$uni-text-color-grey: $lh-sub; // 辅助灰色
+$uni-text-color-placeholder: #808080;
+$uni-text-color-disable: #c0c0c0;
+
+/* 背景颜色 */
+$uni-bg-color: $lh-bg; // 页面背景
+$uni-bg-color-grey: #f8f8f8;
+$uni-bg-color-hover: #f1f1f1;
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4);
+
+/* 边框颜色 */
+$uni-border-color: #c8c7cc;
+
+/* 字体大小 */
+$uni-font-size-sm: 24rpx;
+$uni-font-size-base: 28rpx;
+$uni-font-size-lg: 32rpx;
+
+/* 图片尺寸 */
+$uni-img-size-sm: 40rpx;
+$uni-img-size-base: 52rpx;
+$uni-img-size-lg: 80rpx;
+
+/* Border Radius */
+$uni-border-radius-sm: 4rpx;
+$uni-border-radius-base: 6rpx;
+$uni-border-radius-lg: 12rpx;
+$uni-border-radius-circle: 50%;
+
+/* 水平间距 */
+$uni-spacing-row-sm: 10px;
+$uni-spacing-row-base: 20rpx;
+$uni-spacing-row-lg: 30rpx;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: 8rpx;
+$uni-spacing-col-base: 16rpx;
+$uni-spacing-col-lg: 24rpx;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3;
+
+/* 文章场景相关 */
+$uni-title-font-size: 60rpx;
+$uni-title-color: #202020;
+$uni-paragraph-font-size: 30rpx;
+$uni-paragraph-color: $lh-text;
+$uni-line-height: 1.8;
